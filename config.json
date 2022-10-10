@@ -1,20 +1,30 @@
 {
   "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "title": "SteamWolf",
+  "name": "SteamWolf",
+  "ascii": "SteamWolf",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "SteamWo1f",
+    "linkedin": "steamwolf",
+    "reddit": "SteamWo1f",
+    "twitter": "Twitter",
+    "twitch": "Twitch",
+    "music": "Music",
+    "tumblr": "Tumblr",
+    "youTube": "YouTube",
+    "ao3": "Ao3",
+    "discord server": "DS"
+
+    
   },
-  "email": "contact@email.com",
+  "email": "steamwolf.121.business@gmail.com",
   "ps1_hostname": "liveterm",
   "ps1_username": "visitor",
   "repo": "https://github.com/Cveinnt/LiveTerm",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
+    "paypal": "https://paypal.me/SteamWo1f",
+    "Ko-Fi": "https://ko-fi.com/steamwolf"
   },
   "colors": {
     "light": {
@@ -27,8 +37,8 @@
       "red": "#CA2124"
     },
     "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
+      "background": "#292829",
+      "foreground": "#ff9347",
       "yellow": "#5E81AC",
       "green": "#A3BE8C",
       "gray": "#88C0D0",
