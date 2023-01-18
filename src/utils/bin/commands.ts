@@ -18,7 +18,7 @@ export const help = async (args: string[]): Promise<string> => {
 \n${c}\n
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display sumfetch.
+Type 'info' to display summary.
 `;
 };
 
@@ -33,7 +33,7 @@ export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to my website!
 More about me:
-'sumfetch' - short summary.
+'info' - short summary.
 'resume' - my latest resume.
 'readme' - my github readme.`;
 };
@@ -77,9 +77,9 @@ export const Reddit = async (args: string[]): Promise<string> => {
 };
 
 export const twitter = async (args: string[]): Promise<string> => {
-  window.open(`https://www.reddit.com/${config.social.reddit}/`);
+  window.open(`https://www.twitter.com/${config.social.twitter}/`);
 
-  return 'Opening Reddit...';
+  return 'Opening Twitter...';
 };
 
 
@@ -101,12 +101,7 @@ export const bing = async (args: string[]): Promise<string> => {
   return `Wow, really? You are using bing for ${args.join(' ')}?`;
 };
 
-export const reddit = async (args: string[]): Promise<string> => {
-  window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
-  return `Searching reddit for ${args.join(' ')}...`;
-};
-
-// Typical linux commands
+// Typical linux commands / fun stuff
 export const echo = async (args: string[]): Promise<string> => {
   return args.join(' ');
 };
@@ -116,11 +111,11 @@ export const whoami = async (args: string[]): Promise<string> => {
 };
 
 export const ls = async (args: string[]): Promise<string> => {
-  return `a
-bunch
-of
-fake
-directories`;
+  return `/a
+/bunch
+/of
+/fake
+/directories`;
 };
 
 export const cd = async (args: string[]): Promise<string> => {
@@ -148,6 +143,22 @@ export const emacs = async (args?: string[]): Promise<string> => {
   return `you know what? just use vscode.`;
 };
 
+export const vscode = async (args?: string[]): Promise<string> => {
+  return `you can't open vscode from here, try Xcode.`;
+};
+
+export const nano = async (args?: string[]): Promise<string> => {
+  return `Just use vim.`;
+};
+
+export const xcode = async (args?: string[]): Promise<string> => {
+  return `Only on macos, try Sublime Text.`;
+};
+
+export const sublime = async (args?: string[]): Promise<string> => {
+  return `At this point you must know nothing is going to happen, just stop and go touch grass.`;
+};
+
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
@@ -167,6 +178,6 @@ export const banner = (args?: string[]): string => {
   
 
 Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
+Type 'info' to display summary.
 `
 }
