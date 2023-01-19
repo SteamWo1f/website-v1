@@ -32,7 +32,7 @@ const summary = async (args: string[]): Promise<string> => {
   | -----------
  |   DONATE 
   |  <u><a href="https://paypal.me/SteamWo1f" target="_blank">PayPal</a></u>
- |   <u><a href="https://ko-fi.com/steamwolf" target="_blank">Ko-Fi</a></u>
+ |   <u><a href="https://ko-fi.com/steamwolf" target="_blank"> Ko-Fi</a></u>
   | ---------------------------------------
 `;
   } else {
