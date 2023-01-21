@@ -164,6 +164,11 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
+export const ao3 = async (args?: string[]): Promise<string> => {
+  return `You found the gay corner: https://archiveofourown.org/users/SteamWolf`;
+};
+
+
 // Banner
 export const banner = (args?: string[]): string => {
   return `
