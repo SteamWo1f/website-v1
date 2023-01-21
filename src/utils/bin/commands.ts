@@ -140,19 +140,19 @@ export const nvim = async (args: string[]): Promise<string> => {
 };
 
 export const emacs = async (args?: string[]): Promise<string> => {
-  return `you know what? just use vscode.`;
+  return `you know what? just use 'vscode'.`;
 };
 
 export const vscode = async (args?: string[]): Promise<string> => {
-  return `you can't open vscode from here, try Xcode.`;
+  return `you can't open vscode from here, try 'Atom'.`;
 };
 
 export const nano = async (args?: string[]): Promise<string> => {
-  return `Just use vim.`;
+  return `Just use 'vim'.`;
 };
 
-export const xcode = async (args?: string[]): Promise<string> => {
-  return `Only on macos, try Sublime Text.`;
+export const Atom = async (args?: string[]): Promise<string> => {
+  return `Not compleatly free, Try 'Sublime Text'`;
 };
 
 export const sublime = async (args?: string[]): Promise<string> => {
@@ -176,8 +176,8 @@ export const banner = (args?: string[]): string => {
   ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚══╝╚══╝  ╚═════╝ ╚══════╝╚═╝                                                                                                                                                                                            
                                                                                  
   
+Type 'info' to display summary / links.
 
 Type 'help' to see the list of available commands.
-Type 'info' to display summary.
 `
 }
