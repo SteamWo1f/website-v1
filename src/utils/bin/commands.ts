@@ -151,7 +151,7 @@ export const nano = async (args?: string[]): Promise<string> => {
   return `Just use 'vim'.`;
 };
 
-export const Atom = async (args?: string[]): Promise<string> => {
+export const atom = async (args?: string[]): Promise<string> => {
   return `Not compleatly free, Try 'Sublime Text'`;
 };
 
