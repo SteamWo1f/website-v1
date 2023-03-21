@@ -1,5 +1,5 @@
 
-#[THIS IS MY VERSION OF THIS CODE IF YOU WANT TO DO THIS GO TO: https://github.com/Cveinnt/LiveTerm]
+# [THIS IS MY VERSION OF THIS CODE IF YOU WANT TO DO THIS GO TO: https://github.com/Cveinnt/LiveTerm]
 
 
 
