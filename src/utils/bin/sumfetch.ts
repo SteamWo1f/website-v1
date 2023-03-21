@@ -28,11 +28,13 @@ const summary = async (args: string[]): Promise<string> => {
   | ♦ <u><a href="https://www.tumblr.com/blog/steamwo1f" target="_blank">Tumblr</a></u>
  |  ♦ <u><a href="https://discord.com/invite/XBz9hJAxzD" target="_blank">Discord Server</a></u>
   | ♦ <u><a href="https://www.youtube.com/channel/UCJqYptKIPNtsWRYWJZZH5Dg" target="_blank">YouTube</a></u>
- |  ♦ <u><a href="https://archiveofourown.org/users/SteamWolf" target="_blank">Ao3</a></u>  
-  | -----------
- |   DONATE 
-  |  <u><a href="https://paypal.me/SteamWo1f" target="_blank">PayPal</a></u>
- |   <u><a href="https://ko-fi.com/steamwolf" target="_blank">Ko-Fi</a></u>
+ |  ♦ <u><a href="https://archiveofourown.org/users/SteamWolf" target="_blank">Ao3</a></u>
+  | ♦ Matrix: steamwolf:matrix.org
+ | -----------
+  |  DONATE 
+ |   <u><a href="https://paypal.me/SteamWo1f" target="_blank">PayPal</a></u>
+  |  <u><a href="https://ko-fi.com/steamwolf" target="_blank">Ko-Fi</a></u>
+ |  ♦ Bitcoin: bc1qc0rr93ax7fdj2ylyqwrlq7xnqxdryf345gsd5c7vnlvtsk9wkktq98d5tg
   | ---------------------------------------
 `;
   } else {
@@ -62,11 +64,13 @@ const summary = async (args: string[]): Promise<string> => {
     | ♦ <u><a href="https://www.tumblr.com/blog/steamwo1f" target="_blank">Tumblr</a></u>
    |  ♦ <u><a href="https://discord.com/invite/XBz9hJAxzD" target="_blank">Discord Server</a></u>
     | ♦ <u><a href="https://www.youtube.com/channel/UCJqYptKIPNtsWRYWJZZH5Dg" target="_blank">YouTube</a></u>
-   |  ♦ <u><a href="https://archiveofourown.org/users/SteamWolf" target="_blank">Ao3</a></u>  
-    | -----------
-   |   DONATE 
-    |  <u><a href="https://paypal.me/SteamWo1f" target="_blank">PayPal</a></u>
-   |   <u><a href="https://ko-fi.com/steamwolf" target="_blank">Ko-Fi</a></u>
+   |  ♦ <u><a href="https://archiveofourown.org/users/SteamWolf" target="_blank">Ao3</a></u>
+    | ♦ Matrix: steamwolf:matrix.org
+   | -----------
+    |  DONATE 
+   |   <u><a href="https://paypal.me/SteamWo1f" target="_blank">PayPal</a></u>
+    |  <u><a href="https://ko-fi.com/steamwolf" target="_blank">Ko-Fi</a></u>
+   |  ♦ Bitcoin: bc1qc0rr93ax7fdj2ylyqwrlq7xnqxdryf345gsd5c7vnlvtsk9wkktq98d5tg
     | ---------------------------------------
 
 `;
