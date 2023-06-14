@@ -33,9 +33,7 @@ export const about = async (args: string[]): Promise<string> => {
   return `Hi, I am ${config.name}. 
 Welcome to my website!
 More about me:
-'info' - short summary.
-'resume' - my latest resume.
-'readme' - my github readme.`;
+'info' - short summary.`;
 };
 
 //export const resume = async (args: string[]): Promise<string> => {
