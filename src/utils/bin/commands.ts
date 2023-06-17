@@ -4,7 +4,7 @@ import * as bin from './index';
 import config from '../../../config.json';
 
 // Help (Unformated)
-export const Unformated_help = async (args: string[]): Promise<string> => {
+export const Unformatedhelp = async (args: string[]): Promise<string> => {
   const commands = Object.keys(bin).sort().join(', ');
   var c = '';
   for (let i = 1; i <= Object.keys(bin).sort().length; i++) {
