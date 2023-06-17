@@ -41,6 +41,12 @@ More about me:
 //  return 'Opening resume...';
 //};
 
+export const test = async (args: string[]): Promise<string> => {
+  window.open('Page-Dirs\Test_Page.html');
+  return 'Opening test.html';
+};
+
+
 // Donate
 export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
