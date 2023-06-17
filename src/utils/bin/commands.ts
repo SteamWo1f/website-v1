@@ -3,8 +3,8 @@
 import * as bin from './index';
 import config from '../../../config.json';
 
-// Help
-export const help = async (args: string[]): Promise<string> => {
+// Help (Unformated)
+export const Unformated_help = async (args: string[]): Promise<string> => {
   const commands = Object.keys(bin).sort().join(', ');
   var c = '';
   for (let i = 1; i <= Object.keys(bin).sort().length; i++) {
@@ -22,6 +22,44 @@ Type 'info' to display summary.
 `;
 };
 
+// Help V2
+export const help = async (args: string[]): Promise<string> => {
+  return `
+  Welcome! Here are all the available commands:
+
+  == Info ==
+  Info [Main page with all of my links]
+  Help [Displays this text]
+  Whoami [Says your name]
+  Projects [Displays the current projects I have on my GitHub]
+
+  == Contact ==
+  Email [Opens a mailto link so you can email me]
+  GitHub [Opens a Link to my GitHub profile]
+  Linkedin [Opens a Link to my Linkedin profile]
+  Reddit [Opens a Link to my Reddit profile]
+  Twitter [Opens a Link to my Twitter profile]
+  Ao3 [Opens a Link to my Ao3 profile]
+
+  == Other ==
+  Donate [Opens options where you can tip me]
+  Banner [Displays the ASCII banner that is shown at website start]
+  Repo [The GitHub link for this website]
+
+  == Typical linux commands / fun stuff ==
+  Weather (City) [Shows the weather for the inputted city]
+  Quote [A random quote from quotable.io]
+  Date [Shows the current date]
+  vi [Text and code editor]
+  cd [Go to other pages]
+  ls [List's other pages]
+  sudo [With great power..]
+  echo (text) [Echo's what you input]
+
+  `;
+};
+
+
 // Redirection
 export const repo = async (args: string[]): Promise<string> => {
   window.open(`${config.repo}`);
@@ -29,12 +67,12 @@ export const repo = async (args: string[]): Promise<string> => {
 };
 
 // About
-export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I am ${config.name}. 
-Welcome to my website!
-More about me:
-'info' - short summary.`;
-};
+//export const about = async (args: string[]): Promise<string> => {
+//  return `Hi, I am ${config.name}. 
+//Welcome to my website!
+//More about me:
+//'info' - short summary.`;
+//};
 
 //export const resume = async (args: string[]): Promise<string> => {
 // window.open(`${config.resume_url}`);
@@ -47,8 +85,9 @@ More about me:
 export const donate = async (args: string[]): Promise<string> => {
   return `thank you for your interest. 
 here are the ways you can support my work:
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">paypal</a></u>
-- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls['Ko-Fi']}" target="_blank">patreon</a></u>
+- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">PayPal</a></u>
+- <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls['Ko-Fi']}" target="_blank">Ko-Fi</a></u>
+- <u> Bitcoin: bc1qc0rr93ax7fdj2ylyqwrlq7xnqxdryf345gsd5c7vnlvtsk9wkktq98d5tg </u>
 `;
 };
 
@@ -70,10 +109,16 @@ export const linkedin = async (args: string[]): Promise<string> => {
   return 'Opening Linkedin...';
 };
 
-export const Reddit = async (args: string[]): Promise<string> => {
+export const Ao3 = async (args: string[]): Promise<string> => {
+  window.open(`https://archiveofourown.org/users/SteamWolf`);
+
+  return 'Opening Ao3...';
+};
+
+export const reddit = async (args: string[]): Promise<string> => {
   window.open(`https://www.reddit.com/${config.social.reddit}/`);
 
-  return 'Opening Teddit...';
+  return 'Opening Reddit...';
 };
 
 export const twitter = async (args: string[]): Promise<string> => {
@@ -126,7 +171,7 @@ export const emacs = async (args?: string[]): Promise<string> => {
 };
 
 export const vscode = async (args?: string[]): Promise<string> => {
-  return `you can't open vscode from here, try 'Atom'.`;
+  return `It's okay but it's made by Microsoft, try 'atom'.`;
 };
 
 export const nano = async (args?: string[]): Promise<string> => {
@@ -134,20 +179,16 @@ export const nano = async (args?: string[]): Promise<string> => {
 };
 
 export const atom = async (args?: string[]): Promise<string> => {
-  return `Not compleatly free, Try 'Sublime Text'`;
+  return `Not compleatly free, Try 'sublime text'`;
 };
 
 export const sublime = async (args?: string[]): Promise<string> => {
-  return `At this point you must know nothing is going to happen, just stop and go touch grass.`;
+  return `at this point you must know nothing is going to happen, just stop and go touch grass.`;
 };
 
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
-};
-
-export const ao3 = async (args?: string[]): Promise<string> => {
-  return `You found the gay corner: https://archiveofourown.org/users/SteamWolf`;
 };
 
 
