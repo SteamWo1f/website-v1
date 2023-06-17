@@ -42,10 +42,9 @@ More about me:
 //};
 
 export const test = async (args: string[]): Promise<string> => {
-  window.open('Page-Dirs\Test_Page.html');
-  return 'Opening test.html';
+ window.open(`https://raw.githubusercontent.com/SteamWo1f/Website/868892e6897943b1d4f00a054d653a5a8efb2748/Page-Dirs/Test_Page.html`);
+  return 'Opening test.html...';
 };
-
 
 // Donate
 export const donate = async (args: string[]): Promise<string> => {
