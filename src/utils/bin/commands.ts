@@ -87,7 +87,7 @@ export const donate = async (args: string[]): Promise<string> => {
 here are the ways you can support my work:
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls.paypal}" target="_blank">PayPal</a></u>
 - <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.donate_urls['Ko-Fi']}" target="_blank">Ko-Fi</a></u>
-- <u> Bitcoin: bc1qc0rr93ax7fdj2ylyqwrlq7xnqxdryf345gsd5c7vnlvtsk9wkktq98d5tg </u>
+- <u>Bitcoin: bc1qc0rr93ax7fdj2ylyqwrlq7xnqxdryf345gsd5c7vnlvtsk9wkktq98d5tg </u>
 `;
 };
 
