@@ -42,8 +42,14 @@ More about me:
 //};
 
 export const test = async (args: string[]): Promise<string> => {
- window.open(`https://raw.githubusercontent.com/SteamWo1f/Website/868892e6897943b1d4f00a054d653a5a8efb2748/Page-Dirs/Test_Page.html`);
-  return 'Opening test.html...';
+  const url = 'https://raw.githubusercontent.com/SteamWo1f/Website/868892e6897943b1d4f00a054d653a5a8efb2748/Page-Dirs/Test_Page.html';
+  const newWindow = window.open();
+  if (newWindow) {
+    newWindow.location.href = url;
+    return 'Opening test.html...';
+  } else {
+    return 'Failed to open the HTML document.';
+  }
 };
 
 // Donate
