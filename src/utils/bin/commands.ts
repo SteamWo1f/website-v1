@@ -193,6 +193,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
 };
 
 export const oo = async (args?: string[]): Promise<string> => {
+  window.open('https://steamwo1f.github.io/OOS/')
   return `
    ██████  ██████  ████████ ██ ███    ███ ██ ███████ ███████ ██████       ██████   █████  ███████ ██ ███████ 
   ██    ██ ██   ██    ██    ██ ████  ████ ██    ███  ██      ██   ██     ██    ██ ██   ██ ██      ██ ██      
@@ -208,13 +209,13 @@ export const oo = async (args?: string[]): Promise<string> => {
    These mods provide convenient features like detailed information on in-game elements, customizable character appearances, and tooltips that offer valuable insights into items and blocks. 
    Additionally, the modpack enhances the atmosphere with immersive ambient sounds and adds visual flair with improved skin layers and customizable advancement displays.
    
-   Moreover, Optimized Oasis enriches the world generation process, resulting in breathtaking landscapes and captivating structures. From vibrant biomes to unique and awe-inspiring landmarks, 
-   every world offers a distinct and memorable experience.
+   Moreover, Optimized Oasis enriches the world generation process, resulting in breathtaking landscapes and captivating structures. From vibrant biomes to unique and awe-inspiring 
+   landmarks, every world offers a distinct and memorable experience.
    
    Embark on a refined Minecraft journey with Optimized Oasis, where your adventure is optimized for maximum enjoyment. 
    Explore, build, and survive in a world where the enhancements seamlessly integrate with the existing gameplay, providing a truly immersive and rewarding experience.
 
-   Learn more here: https://steamwo1f.github.io/OOS/
+
   
   
   `;
