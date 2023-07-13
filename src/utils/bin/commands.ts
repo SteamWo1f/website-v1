@@ -193,7 +193,8 @@ export const sudo = async (args?: string[]): Promise<string> => {
 };
 
 export const oo = async (args?: string[]): Promise<string> => {
-  window.open('https://steamwo1f.github.io/OOS/')
+  window.open('https://steamwo1f.github.io/OOS/', '_blank')
+
   return `
    ██████  ██████  ████████ ██ ███    ███ ██ ███████ ███████ ██████       ██████   █████  ███████ ██ ███████ 
   ██    ██ ██   ██    ██    ██ ████  ████ ██    ███  ██      ██   ██     ██    ██ ██   ██ ██      ██ ██      
