@@ -32,6 +32,7 @@ export const help = async (args: string[]): Promise<string> => {
   Help [Displays this text]
   Whoami [Says your name]
   Projects [Displays the current projects I have on my GitHub]
+  Optimized Oasis [My Minecraft modpack's basic info]
 
   == Contact ==
   Email [Opens a mailto link so you can email me]
@@ -189,6 +190,34 @@ export const sublime = async (args?: string[]): Promise<string> => {
 export const sudo = async (args?: string[]): Promise<string> => {
   window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', '_blank'); // ...I'm sorry
   return `Permission denied: with little power comes... no responsibility? `;
+};
+
+export const Optimized_Oasis = async (args?: string[]): Promise<string> => {
+  return `
+   ██████  ██████  ████████ ██ ███    ███ ██ ███████ ███████ ██████       ██████   █████  ███████ ██ ███████ 
+  ██    ██ ██   ██    ██    ██ ████  ████ ██    ███  ██      ██   ██     ██    ██ ██   ██ ██      ██ ██      
+  ██    ██ ██████     ██    ██ ██ ████ ██ ██   ███   █████   ██   ██     ██    ██ ███████ ███████ ██ ███████ 
+  ██    ██ ██         ██    ██ ██  ██  ██ ██  ███    ██      ██   ██     ██    ██ ██   ██      ██ ██      ██ 
+   ██████  ██         ██    ██ ██      ██ ██ ███████ ███████ ██████       ██████  ██   ██ ███████ ██ ███████ 
+                                                                                                             
+                                                                                                             
+   Welcome to Optimized Oasis, a carefully curated Minecraft modpack designed to enhance your gameplay experience without overwhelming you with new items or creatures. 
+   This modpack focuses on improving the game's quality of life and world generation aspects, creating a seamless and optimized adventure for players of all levels.
+
+   Optimized Oasis introduces a range of mods that work together harmoniously to improve various aspects of the game. 
+   These mods provide convenient features like detailed information on in-game elements, customizable character appearances, and tooltips that offer valuable insights into items and blocks. 
+   Additionally, the modpack enhances the atmosphere with immersive ambient sounds and adds visual flair with improved skin layers and customizable advancement displays.
+   
+   Moreover, Optimized Oasis enriches the world generation process, resulting in breathtaking landscapes and captivating structures. From vibrant biomes to unique and awe-inspiring landmarks, 
+   every world offers a distinct and memorable experience.
+   
+   Embark on a refined Minecraft journey with Optimized Oasis, where your adventure is optimized for maximum enjoyment. 
+   Explore, build, and survive in a world where the enhancements seamlessly integrate with the existing gameplay, providing a truly immersive and rewarding experience.
+
+   Learn more here: https://steamwo1f.github.io/OOS/
+  
+  
+  `;
 };
 
 
