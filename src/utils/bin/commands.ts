@@ -32,7 +32,7 @@ export const help = async (args: string[]): Promise<string> => {
   Help [Displays this text]
   Whoami [Says your name]
   Projects [Displays the current projects I have on my GitHub]
-  Optimized Oasis [My Minecraft modpack's basic info]
+  oo [Optimized Oasis's basic info]
 
   == Contact ==
   Email [Opens a mailto link so you can email me]
@@ -192,7 +192,7 @@ export const sudo = async (args?: string[]): Promise<string> => {
   return `Permission denied: with little power comes... no responsibility? `;
 };
 
-export const Optimized_Oasis = async (args?: string[]): Promise<string> => {
+export const oo = async (args?: string[]): Promise<string> => {
   return `
    ██████  ██████  ████████ ██ ███    ███ ██ ███████ ███████ ██████       ██████   █████  ███████ ██ ███████ 
   ██    ██ ██   ██    ██    ██ ████  ████ ██    ███  ██      ██   ██     ██    ██ ██   ██ ██      ██ ██      
