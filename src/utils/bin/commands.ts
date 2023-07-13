@@ -215,10 +215,6 @@ export const oo = async (args?: string[]): Promise<string> => {
    
    Embark on a refined Minecraft journey with Optimized Oasis, where your adventure is optimized for maximum enjoyment. 
    Explore, build, and survive in a world where the enhancements seamlessly integrate with the existing gameplay, providing a truly immersive and rewarding experience.
-
-
-  
-  
   `;
 };
 
