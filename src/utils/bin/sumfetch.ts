@@ -14,7 +14,7 @@ const summary = async (args: string[]): Promise<string> => {
   | -----------
  |   ABOUT
   |  ${config.name}
- |   DJ | Photo & Video Editor | Python Coder | Beginner Video Producer | Creative Writer
+ |   DJ | Photo & Video Editor | Developer | Beginner Video Producer | Creative Writer
   | 爵 <u><a href="https://drive.google.com/drive/folders/13i6pVkjvJCkA6qjiBb4cJNPptSpuPLOZ?usp=sharing" target="_blank">Portfolio</a></u>  
  |  ----------- 
   |  CONTACT 
