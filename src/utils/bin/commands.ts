@@ -128,6 +128,17 @@ export const twitter = async (args: string[]): Promise<string> => {
   return 'Opening Twitter...';
 };
 
+export const V2 = async (args: string[]): Promise<string> => {
+  window.open(`https://steamwolf.vercel.app/`);
+
+  return 'Opening New Website...';
+};
+
+export const v2 = async (args: string[]): Promise<string> => {
+  window.open(`https://steamwolf.vercel.app/`);
+
+  return 'Opening New Website...';
+};
 
 // Typical linux commands / fun stuff
 export const echo = async (args: string[]): Promise<string> => {
@@ -230,7 +241,8 @@ export const banner = (args?: string[]): string => {
   ███████║   ██║   ███████╗██║  ██║██║ ╚═╝ ██║╚███╔███╔╝╚██████╔╝███████╗██║     
   ╚══════╝   ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚══╝╚══╝  ╚═════╝ ╚══════╝╚═╝                                                                                                                                                                                            
                                                                                  
-  
+NOTICE: This website in no longer going to be updated with new information, please view the new version by typing 'V2'
+
 Type 'info' to display summary / links.
 
 Type 'help' to see the list of available commands.
