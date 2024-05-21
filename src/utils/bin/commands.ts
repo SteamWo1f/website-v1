@@ -134,7 +134,7 @@ export const V2 = async (args: string[]): Promise<string> => {
   return 'Opening New Website...';
 };
 
-export const v2 = async (args: string[]): Promise<string> => {
+export const v3 = async (args: string[]): Promise<string> => {
   window.open(`https://steamwolf.vercel.app/`);
 
   return 'Opening New Website...';
